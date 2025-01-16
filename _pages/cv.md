@@ -21,6 +21,14 @@ Experience
 * 2022: Research Assistant
   * HexHive, École Polytechnique Fédérale de Lausanne
   * Supervisor: Prof. Mathias Payer
+
+Awards
+======
+* SBFT FuzzBench Competition 2nd Place, Google, 2024
+* EDIC PhD Fellowship, EPFL, 2023
+* IC Master Scholarship, EPFL, 2022
+* Visiting Scholarship, China Scholarship Council, 2021
+
   
 Skills
 ======

@@ -8,5 +8,5 @@ date: 2025-06-23
 venue: 'ESEC/FSE 2025'
 slidesurl: 'https://www.usenix.org/conference/usenixsecurity23/presentation/zheng'
 paperurl: 'https://www.usenix.org/system/files/usenixsecurity23-zheng.pdf'
-citation: 'Han Zheng, et, al. (2023). &quot;MendelFuzz: The Return of the Deterministic Stage.&quot; <i>ESEC/FSE 2025</i>.'
+citation: 'Han Zheng, et, al. (2025). &quot;MendelFuzz: The Return of the Deterministic Stage.&quot; <i>ESEC/FSE 2025</i>.'
 ---
