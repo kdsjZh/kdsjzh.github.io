@@ -29,7 +29,7 @@ Bug Hunting
 | Chrome           | CVE-2025-0436 | High   | Integer Overflow in Skia                            |
 | Chrome           | b/365802556   | High   | Use-After-Return in Blink                           |
 | Chrome           | CVE-2024-7968 | High   | Use-After-Free in UI                                |
-| Chrome           | b/349253666   | High   | Use-After-Free in UI                                |
+| Chrome           | b/351843813   | Medium | Use-After-Free in UI                                |
 | Chrome           | CVE-2024-5847 | Medium | Use-After-Free in PDF                               |
 | Chrome           | CVE-2024-5846 | Medium | Use-After-Free in PDF                               |
 | Chrome           | CVE-2024-7018 | Medium | Heap-Buffer-Overflow  in PDF                        |
