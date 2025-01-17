@@ -12,6 +12,15 @@ I received my master degree in University of Chinese Academy of Science in 2023 
 University in 2020. I'm broadly interested in Software and System security, particularly in Browser 
 Security and Fuzzing. 
 
+Besides the research, I actively contribute to open source community by submitting bug reports 
+and intergrating my research prototypes. So far I reported more than 50 CVEs for 
+widely used open source software and integrated my research prototypes in AFL++[1], 
+one of the most widely used greybox fuzzing framework.
+
+I enjoy bug hunting on complex software system for fun <del>and profits</del>. By 
+leveraging static analysis, fuzzing and code auditing, I successfully found a 
+series of vulnerbilities in web browsers and rank #42 in Google VRP 2024, 
+receiving about 25,000 USD bug bounties.
 
 Selected Publication
 ======
