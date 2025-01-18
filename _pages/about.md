@@ -33,7 +33,8 @@ Bug Hunting
 ======
 
 | Vendor           | Bug       | Severity  |                                                    |
-| --------         | -------- | --------- | -------------------------------------------------- |
+| --------         | --------- | --------- | -------------------------------------------------- |
+| ChromeOS         | b/385851796   | High   | Global-Buffer-Overflow in Virglrenderer             |
 | Chrome           | CVE-2025-0438 | High   | Stack-Buffer-Overflow in Tracing                    |
 | Chrome           | CVE-2025-0436 | High   | Integer Overflow in Skia                            |
 | Chrome           | b/365802556   | High   | Use-After-Return in Blink                           |
@@ -41,7 +42,7 @@ Bug Hunting
 | Chrome           | b/351843813   | Medium | Use-After-Free in UI                                |
 | Chrome           | CVE-2024-5847 | Medium | Use-After-Free in PDF                               |
 | Chrome           | CVE-2024-5846 | Medium | Use-After-Free in PDF                               |
-| Chrome           | CVE-2024-7018 | Medium | Heap-Buffer-Overflow  in PDF                        |
+| Chrome           | CVE-2024-7018 | Medium | Heap-Buffer-Overflow in PDF                         |
 | Wireshark        | CVE-2024-0210 | Unknown | DoS in Wireshark dissector                         |
 | Wireshark        | CVE-2024-0209 | Unknown | DoS in Wireshark dissector                         |
 | Apple            | CVE-2022-26981 | Unknown | Global-Buffer-Overflow in Font                    |
