@@ -20,7 +20,7 @@ one of the most widely used greybox fuzzing framework.
 I enjoy bug hunting on complex software system for fun <del>and profits</del>. By 
 leveraging static analysis, fuzzing and code auditing, I successfully found a 
 series of vulnerbilities in web browsers and rank #42 in Google VRP 2024, 
-receiving about 25,000 USD bug bounties.
+receiving 25,000 USD bug bounties.
 
 Selected Publication
 ======
