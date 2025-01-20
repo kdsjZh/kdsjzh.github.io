@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Computer Science, École Polytechnique Fédérale de Lausanne, 2023 - Now
-* M.E. in Electronic Information Engineering, 2020 - 2023
+* M.E. in Electronic Information Engineering, University of Chinese Academy of Science, 2020 - 2023
 * B.E. in Information Countermeasure Technology, Xidian University, 2016 - 2020
 
 Experience
