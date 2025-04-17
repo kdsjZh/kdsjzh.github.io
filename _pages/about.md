@@ -34,7 +34,7 @@ Bug Hunting
 
 | Vendor           | Bug       | Severity  |                                                    |
 | --------         | --------- | --------- | -------------------------------------------------- |
-| ChromeOS         | b/385851796   | High   | Global-Buffer-Overflow in Virglrenderer             |
+| ChromeOS         | CVE-2025-2509 | Medium | Global-Buffer-Overflow in Virglrenderer             |
 | Chrome           | CVE-2025-0438 | High   | Stack-Buffer-Overflow in Tracing                    |
 | Chrome           | CVE-2025-0436 | High   | Integer Overflow in Skia                            |
 | Chrome           | b/365802556   | High   | Use-After-Return in Blink                           |
