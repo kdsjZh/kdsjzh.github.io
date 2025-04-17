@@ -56,5 +56,6 @@ Publications
   
 Service and leadership
 ======
-* Journal Reviewer: TSE'24
+* Program Committee: FUZZING'25 
+* Journal Reviewer: TSE (CCF-A), TOSEM (CCF-A), TIFS (CCF-A)
 * Shadow Program Committee: ISSTA'24, NDSS'24
