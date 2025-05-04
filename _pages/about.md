@@ -26,7 +26,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a PhD Student at [HexHive@EPFL](https://hexhive.epfl.ch), advised by Prof. Mathias Payer.
+I’m a PhD Student at [HexHive@EPFL](https://hexhive.epfl.ch), advised by [Prof. Mathias Payer](https://https://nebelwelt.net/).
 I received my master degree in University of Chinese Academy of Science in 2023 and my
 bachelor in Xidian University in 2020. I’m broadly interested in Software and System
 security, particularly in Browser Security and Fuzzing.
