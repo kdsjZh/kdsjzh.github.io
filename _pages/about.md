@@ -41,5 +41,5 @@ analysis, fuzzing and code auditing, I successfully found a series of vulnerbili
 web browsers and rank #42 in [Google VRP 2024](https://bughunters.google.com/profile/8074163b-0788-4909-845e-2fe6cd37fbb2),
 receiving 25,000 USD bug bounties.
 
-Feel free to drop me <a href="mailto:han.zheng@epfl.ch">an email</a> in case of any question
-or collebration!
+Feel free to drop me <a href="mailto:han.zheng@epfl.ch">an email</a> in case of any collaboration
+or questions!
