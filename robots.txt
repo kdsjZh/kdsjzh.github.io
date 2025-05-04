@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://kdsjzh.github.io/sitemap.xml
+Sitemap: https://kdsjZh.github.io/sitemap.xml
