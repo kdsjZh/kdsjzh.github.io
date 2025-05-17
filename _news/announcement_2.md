@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was accepted by Foundations of Software Engineering 2025!
+MendelFuzz was accepted by Foundations of Software Engineering 2025!

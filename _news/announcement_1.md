@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper was accepted by USENIX Security 2023!
+FishFuzz was accepted by USENIX Security 2023!
