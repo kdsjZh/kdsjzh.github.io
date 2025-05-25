@@ -10,7 +10,7 @@
   vendor: Google Chromium
   category: Stack Buffer Overflow
   severity: "High"
-  citation: https://chromereleases.googleblog.com/2025/01/stable-channel-update-for-desktop_14.html	
+  citation: https://chromereleases.googleblog.com/2025/01/stable-channel-update-for-desktop_14.html
   date: 2025-01-15
 
 - cve_id: CVE-2025-0436
@@ -18,16 +18,15 @@
   category: Integer Overflow
   severity: "High"
   bounty: "$3,000"
-  citation: https://chromereleases.googleblog.com/2025/01/stable-channel-update-for-desktop_14.html	
+  citation: https://chromereleases.googleblog.com/2025/01/stable-channel-update-for-desktop_14.html
   date: 2025-01-15
-
 
 - cve_id: Crbug-365802556
   vendor: Google Chromium
   category: Use After Return
   severity: "High"
   bounty: "$11,000"
-  citation: https://issues.chromium.org/365802556	
+  citation: https://issues.chromium.org/365802556
   date: 2024-09-19
 
 - cve_id: CVE-2024-7968
@@ -35,16 +34,15 @@
   category: Use After Free
   severity: "High"
   bounty: "$1,000"
-  citation: https://chromereleases.googleblog.com/2024/08/stable-channel-update-for-desktop_21.html 
+  citation: https://chromereleases.googleblog.com/2024/08/stable-channel-update-for-desktop_21.html
   date: 2024-08-21
 
-  
 - cve_id: Crbug-351843813
   vendor: Google Chromium
   category: Use After Free
   severity: "Medium"
   bounty: "$500"
-  citation: https://issues.chromium.org/351843813	 
+  citation: https://issues.chromium.org/351843813
   date: 2024-08-22
 
 - cve_id: CVE-2024-7018
@@ -52,7 +50,7 @@
   category: Use After Free
   severity: "Medium"
   bounty: "$7,000"
-  citation: https://issues.chromium.org/issues/333414305 
+  citation: https://issues.chromium.org/issues/333414305
   date: 2024-09-23
 
 - cve_id: CVE-2024-5847
@@ -60,7 +58,7 @@
   category: Use After Free
   severity: "Medium"
   bounty: "$1,000"
-  citation: https://chromereleases.googleblog.com/2024/06/stable-channel-update-for-desktop.html 
+  citation: https://chromereleases.googleblog.com/2024/06/stable-channel-update-for-desktop.html
   date: 2024-06-11
 
 - cve_id: CVE-2024-5846
@@ -68,7 +66,7 @@
   category: Use After Free
   severity: "Medium"
   bounty: "$1,000"
-  citation: https://chromereleases.googleblog.com/2024/06/stable-channel-update-for-desktop.html 
+  citation: https://chromereleases.googleblog.com/2024/06/stable-channel-update-for-desktop.html
   date: 2024-06-11
 
 - cve_id: CVE-2024-0210

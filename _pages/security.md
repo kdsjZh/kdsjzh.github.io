@@ -3,13 +3,13 @@ layout: page
 title: security
 permalink: /security/
 nav: true
-
 ---
 
 <div class="security-advisories">
 
 {% assign advisories = site.data.security_advisories | sort: 'date' | reverse %}
 {% for advisory in advisories %}
+
   <div class="advisory-card">
     <div class="advisory-header">
       <div class="cve-id">{{ advisory.cve_id }}</div>
@@ -31,6 +31,7 @@ nav: true
         <a href="{{ advisory.citation }}" target="_blank">🔗 Advisory </a>
       </div>
     {% endif %}
+
   </div>
 {% endfor %}
 
