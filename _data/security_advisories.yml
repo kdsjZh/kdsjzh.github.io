@@ -1,3 +1,10 @@
+- cve_id: CVE-2025-32726
+  vendor: Microsoft VSCode
+  category: Improper Access Control
+  severity: "High"
+  citation: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32726
+  date: 2025-06-30
+
 - cve_id: CVE-2025-2509
   vendor: Google ChromeOS
   category: Global Buffer Overflow
