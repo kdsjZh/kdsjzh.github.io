@@ -67,6 +67,9 @@ ninja.data = [{
           section: "News",},{id: "news-mendelfuzz-receive-available-and-reusable-subsumes-functional-badges",
           title: 'MendelFuzz receive available and reusable (subsumes functional) badges!',
           description: "",
+          section: "News",},{id: "news-i-m-honored-to-be-invited-to-serve-on-the-ase-25-program-commitee",
+          title: 'I’m honored to be invited to serve on the ASE’25 Program Commitee!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
