@@ -1,3 +1,10 @@
+- cve_id: VULN-152863
+  vendor: Microsoft Online Services
+  category: Information Disclosure
+  severity: "Low"
+  citation: https://msrc.microsoft.com/update-guide/acknowledgement/online
+  date: 2025-06-30
+
 - cve_id: CVE-2025-32726
   vendor: Microsoft VSCode
   category: Improper Access Control
@@ -54,7 +61,7 @@
 
 - cve_id: CVE-2024-7018
   vendor: Google Chromium
-  category: Use After Free
+  category: Heap Buffer Overflow
   severity: "Medium"
   bounty: "$7,000"
   citation: https://issues.chromium.org/issues/333414305
