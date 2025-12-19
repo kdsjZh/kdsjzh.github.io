@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m honored to be invited to serve on the [ASE'25](https://conf.researchr.org/committee/ase-2025/ase-2025-papers-program-committee) Program Commitee!
+I’m honored to serve on the [ASE'25](https://conf.researchr.org/committee/ase-2025/ase-2025-papers-program-committee) Program Commitee!

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm honored to be invited to serve on the [FUZZING'25](https://fuzzingworkshop.github.io/index.html) Program Committee.
+I'm honored to serve on the [FUZZING'25](https://fuzzingworkshop.github.io/index.html) Program Committee.
