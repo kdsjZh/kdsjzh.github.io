@@ -73,6 +73,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-honored-to-serve-on-the-issta-26-and-fuzzing-26-program-commitee",
           title: 'I’m honored to serve on the ISSTA’26 and FUZZING’26 Program Commitee!',
           description: "",
+          section: "News",},{id: "news-wrapping-up-the-year-with-8-000-usd-bounty-from-chrome-vrp",
+          title: 'Wrapping up the year with 8,000 USD bounty from Chrome VRP!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
