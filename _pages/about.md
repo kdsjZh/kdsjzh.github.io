@@ -39,7 +39,7 @@ greybox fuzzing framework.
 I enjoy bug hunting on complex software system for fun and ~~profits~~. By leveraging static
 analysis, fuzzing and code auditing, I successfully found a series of vulnerbilities in
 web browsers and rank #42 in [Google VRP 2024](https://bughunters.google.com/profile/8074163b-0788-4909-845e-2fe6cd37fbb2),
-receiving 25,000 USD bug bounties. Beside memory corruption, I discovered several logical vulnerabilities
+receiving 33,000 USD bug bounties. Beside memory corruption, I discovered several logical vulnerabilities
 in Microsoft products.
 
 Feel free to drop me <a href="mailto:han.zheng@epfl.ch">an email</a> in case of any questions!
