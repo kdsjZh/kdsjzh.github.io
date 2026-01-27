@@ -76,6 +76,9 @@ ninja.data = [{
           section: "News",},{id: "news-wrapping-up-the-year-with-8-000-usd-bounty-from-chrome-vrp",
           title: 'Wrapping up the year with 8,000 USD bounty from Chrome VRP!',
           description: "",
+          section: "News",},{id: "news-grape-was-accepted-by-usenix-woot-conference-on-offensive-technologies",
+          title: 'Grape was accepted by USENIX WOOT Conference on Offensive Technologies!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
