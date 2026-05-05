@@ -10,24 +10,25 @@ nav: false
 {% assign badges = site.data.milestones | sort: 'date' | reverse %}
 {% assign current_year = "" %}
 {% for badge in badges %}
-  {% assign year = badge.date | date: "%Y" %}
-  {% if year != current_year %}
-    {% unless forloop.first %}
-      </div>
-    {% endunless %}
-    <h3 class="achievement-year">{{ year }}</h3>
-    <div class="achievement-grid">
-    {% assign current_year = year %}
-  {% endif %}
+{% assign year = badge.date | date: "%Y" %}
+{% if year != current_year %}
+{% unless forloop.first %}
 
-  {% assign cat_lower = badge.category | downcase %}
-  {% assign icon_class = badge.icon | default: "fa-award" %}
+</div>
+{% endunless %}
+<h3 class="achievement-year">{{ year }}</h3>
+<div class="achievement-grid">
+{% assign current_year = year %}
+{% endif %}
 
-  {% if icon_class contains "fa-solid" or icon_class contains "fa-brands" or icon_class contains "fa-regular" %}
-    {% assign icon_full = icon_class %}
-  {% else %}
-    {% assign icon_full = "fa-solid " | append: icon_class %}
-  {% endif %}
+{% assign cat_lower = badge.category | downcase %}
+{% assign icon_class = badge.icon | default: "fa-award" %}
+
+{% if icon_class contains "fa-solid" or icon_class contains "fa-brands" or icon_class contains "fa-regular" %}
+{% assign icon_full = icon_class %}
+{% else %}
+{% assign icon_full = "fa-solid " | append: icon_class %}
+{% endif %}
 
   <div class="achievement-card cat-{{ cat_lower }}">
     <div class="achievement-icon"><i class="{{ icon_full }}"></i></div>
@@ -43,9 +44,10 @@ nav: false
     </div>
   </div>
 
-  {% if forloop.last %}
-    </div>
-  {% endif %}
+{% if forloop.last %}
+
+</div>
+{% endif %}
 {% endfor %}
 
 </div>

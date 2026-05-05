@@ -10,17 +10,19 @@ nav: true
 {% assign advisories = site.data.security_advisories | sort: 'date' | reverse %}
 {% assign current_year = "" %}
 {% for advisory in advisories %}
-  {% assign year = advisory.date | date: "%Y" %}
-  {% if year != current_year %}
-    {% unless forloop.first %}
-      </div>
-    {% endunless %}
-    <h3 class="advisory-year">{{ year }}</h3>
-    <div class="advisory-grid">
-    {% assign current_year = year %}
-  {% endif %}
+{% assign year = advisory.date | date: "%Y" %}
+{% if year != current_year %}
+{% unless forloop.first %}
 
-  {% assign sev_class = advisory.severity | downcase %}
+</div>
+{% endunless %}
+<h3 class="advisory-year">{{ year }}</h3>
+<div class="advisory-grid">
+{% assign current_year = year %}
+{% endif %}
+
+{% assign sev_class = advisory.severity | downcase %}
+
   <div class="advisory-card{% if advisory.severity %} sev-card-{{ sev_class }}{% endif %}">
     <a class="cve-id" href="{{ advisory.citation }}" target="_blank" rel="noopener">{{ advisory.cve_id }}</a>
     <div class="vendor">{{ advisory.vendor }}</div>
@@ -35,9 +37,10 @@ nav: true
     </div>
   </div>
 
-  {% if forloop.last %}
-    </div>
-  {% endif %}
+{% if forloop.last %}
+
+</div>
+{% endif %}
 {% endfor %}
 
 </div>

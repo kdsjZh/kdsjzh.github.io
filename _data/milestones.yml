@@ -4,13 +4,11 @@
   date: 2026-01-26
   category: "Academia"
 
-
 - name: "Its over 30K"
   icon: fa-trophy
   description: "High-Severity report in Blink, total bounty exceeding 30K USD."
   date: 2025-12-18
   category: "Hacking"
-
 
 - name: "Unlocking ISSTA TPC"
   icon: fa-users
