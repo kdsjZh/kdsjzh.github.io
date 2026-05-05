@@ -1,0 +1,91 @@
+- name: "WOOT WOOT!"
+  icon: fa-file-pdf
+  description: "Grape accepted by USENIX WOOT'26."
+  date: 2026-01-26
+  category: "Academia"
+
+
+- name: "Its over 30K"
+  icon: fa-trophy
+  description: "High-Severity report in Blink, total bounty exceeding 30K USD."
+  date: 2025-12-18
+  category: "Hacking"
+
+
+- name: "Unlocking ISSTA TPC"
+  icon: fa-users
+  description: "Serving as program committee on another top tier SE venue"
+  date: 2025-12-05
+  category: "Academia"
+
+- name: "Unlocking NDSS"
+  icon: fa-file-pdf
+  description: "Sysyphuzz accepted by NDSS'26"
+  date: 2025-08-15
+  category: "Academia"
+
+- name: "Unlocking Microsoft Ack"
+  icon: fa-brands fa-windows
+  description: "First Acknowledgment from Microsoft"
+  date: 2025-07-03
+  category: "Hacking"
+
+- name: "Unlocking ASE TPC"
+  icon: fa-users
+  description: "First time serving as program committee on top tier SE venue"
+  date: 2025-06-05
+  category: "Academia"
+
+- name: "New to community"
+  icon: fa-users
+  description: "First time serving on (FUZZING'25) program committee"
+  date: 2025-03-11
+  category: "Academia"
+
+- name: "Unlocking FSE"
+  icon: fa-file-pdf
+  description: "MendelFuzz accepted by FSE'25"
+  date: 2025-01-14
+  category: "Academia"
+
+- name: "Its over 20K"
+  icon: fa-trophy
+  description: "Sandbox Escape from renderer to gpu, total bounty exceeding 20K USD."
+  date: 2024-12-08
+  category: "Hacking"
+
+- name: "Its over 10K"
+  icon: fa-trophy
+  description: "High-Severity report in Blink, total bounty exceeding 10K USD."
+  date: 2024-09-09
+  category: "Hacking"
+
+- name: "First $$ Award"
+  icon: fa-sack-dollar
+  description: "Unlocking Bug Bounty from Chrome VRP"
+  date: 2024-04-22
+  category: "Hacking"
+
+- name: "Unlocking Google Ack"
+  icon: fa-brands fa-google
+  description: "Unlocking Public Acknowledgment from Apple"
+  date: 2024-04-22
+  category: "Hacking"
+
+- name: "PhD Clock Start"
+  icon: fa-regular fa-clock
+  description: "Start graduate study at EPFL"
+  date: 2023-09-01
+  category: "Academia"
+
+- name: "Unlocking USENIX Security"
+  icon: fa-file-pdf
+  description: "FishFuzz accepted by USENIX Security'23"
+  date: 2023-04-26
+  category: "Academia"
+
+- name: "First (Apple) Ack"
+  icon: fa-brands fa-apple
+  description: "Unlocking Public Acknowledgment from Apple"
+  date: 2022-07-20
+  category: "Hacking"
