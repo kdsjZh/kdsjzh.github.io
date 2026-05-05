@@ -20,13 +20,13 @@ nav: true
     {% assign current_year = year %}
   {% endif %}
 
-  <div class="advisory-card">
+  {% assign sev_class = advisory.severity | downcase %}
+  <div class="advisory-card{% if advisory.severity %} sev-card-{{ sev_class }}{% endif %}">
     <a class="cve-id" href="{{ advisory.citation }}" target="_blank" rel="noopener">{{ advisory.cve_id }}</a>
     <div class="vendor">{{ advisory.vendor }}</div>
     <div class="advisory-tags">
       <span class="tag category">{{ advisory.category }}</span>
       {% if advisory.severity %}
-        {% assign sev_class = advisory.severity | downcase %}
         <span class="tag severity sev-{{ sev_class }}">{{ advisory.severity }}</span>
       {% endif %}
       {% if advisory.bounty %}
@@ -54,13 +54,14 @@ nav: true
 }
 
 .advisory-year {
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--global-font-secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
   border-bottom: 1px solid var(--global-divider-color);
-  padding-bottom: 0.3rem;
-  margin: 1.5rem 0 0.8rem 0;
-  letter-spacing: 0.05em;
+  padding-bottom: 0.4rem;
+  margin: 1.8rem 0 1rem 0;
 }
 
 .advisory-grid {
@@ -70,15 +71,20 @@ nav: true
 }
 
 .advisory-card {
-  padding: 0.75rem 0.9rem;
+  padding: 0.7rem 0.9rem;
   border: 1px solid var(--global-divider-color);
-  border-radius: 8px;
+  border-left: 3px solid var(--global-divider-color);
+  border-radius: 6px;
   background-color: var(--global-bg-color);
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.advisory-card.sev-card-high   { border-left-color: #b91c1c; }
+.advisory-card.sev-card-medium { border-left-color: #c2783c; }
+.advisory-card.sev-card-low    { border-left-color: #94a3b8; }
+
 .advisory-card:hover {
-  border-color: var(--global-theme-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transform: translateY(-1px);
 }
 
@@ -125,31 +131,23 @@ nav: true
 }
 
 .tag.severity {
-  border: 1px solid transparent;
+  background: none;
+  border: none;
+  padding: 0.15rem 0;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.tag.sev-high {
-  background-color: rgba(220, 53, 69, 0.12);
-  color: #c0392b;
-  border-color: rgba(220, 53, 69, 0.3);
-}
-
-.tag.sev-medium {
-  background-color: rgba(255, 159, 64, 0.15);
-  color: #b35900;
-  border-color: rgba(255, 159, 64, 0.35);
-}
-
-.tag.sev-low {
-  background-color: rgba(108, 117, 125, 0.15);
-  color: #4d5358;
-  border-color: rgba(108, 117, 125, 0.3);
-}
+.tag.sev-high   { color: #b91c1c; }
+.tag.sev-medium { color: #c2783c; }
+.tag.sev-low    { color: #94a3b8; }
 
 .tag.bounty {
-  background-color: rgba(40, 167, 69, 0.12);
-  color: #1e7e34;
-  border: 1px solid rgba(40, 167, 69, 0.3);
+  background-color: rgba(180, 140, 40, 0.1);
+  color: #8a6d1f;
+  border: 1px solid rgba(180, 140, 40, 0.3);
 }
 
 @media (max-width: 600px) {
