@@ -79,6 +79,9 @@ ninja.data = [{
           section: "News",},{id: "news-grape-was-accepted-by-usenix-woot-conference-on-offensive-technologies",
           title: 'Grape was accepted by USENIX WOOT Conference on Offensive Technologies!',
           description: "",
+          section: "News",},{id: "news-grape-receives-all-three-badges-in-artifact-evaluation",
+          title: 'Grape receives all three badges in artifact evaluation!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
