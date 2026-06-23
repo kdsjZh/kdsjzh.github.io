@@ -94,14 +94,14 @@ ninja.data = [{
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/kdsjZh# your GitHub user name", "_blank");
+          window.open("https://github.com/kdsjZh", "_blank");
         },
       },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0009-0009-5689-3075# your ORCID ID", "_blank");
+          window.open("https://orcid.org/0009-0009-5689-3075", "_blank");
         },
       },{
         id: 'social-scholar',
