@@ -82,6 +82,9 @@ ninja.data = [{
           section: "News",},{id: "news-grape-receives-all-three-badges-in-artifact-evaluation",
           title: 'Grape receives all three badges in artifact evaluation!',
           description: "",
+          section: "News",},{id: "news-thrill-to-start-my-internship-in-google-project-zero",
+          title: 'Thrill to start my internship in Google Project Zero!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
