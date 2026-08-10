@@ -85,6 +85,9 @@ ninja.data = [{
           section: "News",},{id: "news-thrill-to-start-my-internship-in-google-project-zero",
           title: 'Thrill to start my internship in Google Project Zero!',
           description: "",
+          section: "News",},{id: "news-grape-received-woot-26-best-paper",
+          title: 'Grape received WOOT’26 Best Paper!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
